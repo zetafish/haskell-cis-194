@@ -1,1 +1,3 @@
-# Assignment notes for http://www.seas.upenn.edu/%7Ecis194/spring13/
+# Learning Haskell
+
+See http://www.seas.upenn.edu/%7Ecis194/spring13/
