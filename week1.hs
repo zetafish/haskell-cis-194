@@ -36,3 +36,9 @@ hanoi :: Integer -> Peg -> Peg -> Peg -> [Move]
 hanoi 0 _ _ _ = []
 hanoi 1 a b c = [(a, b)]
 hanoi n a b c = (hanoi (n-1) a c b) ++ [(a,b)] ++ (hanoi (n-1) c b a)
+
+-- Exercise 6
+kanoi :: Integer -> Peg -> Peg -> Peg -> Peg -> [Move]
+kanoi 0 _ _ _ _ = []
+kanoi 1 a b _ _ = [(a,b)]
+kanoi 2 a b c _ = [(a,c) (a,b) (c,b)]
